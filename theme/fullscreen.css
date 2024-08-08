@@ -1,6 +1,6 @@
 .ck-editor.ck-plugin-full-screen {
   position: fixed;
-  top: 0;
+  top: 3rem;
   left: 0;
   z-index: 100;
   width: 100%;
@@ -35,4 +35,12 @@
 
 .ck-editor.ck-plugin-full-screen .ck-source-editing-area textarea {
   overflow-y: scroll;
+}
+
+.ck-editor.ck-plugin-full-screen .ck-sticky-panel__placeholder {
+	display: none !important;
+}
+
+.ck-editor.ck-plugin-full-screen .ck-sticky-panel__content {
+	position: static !important;
 }
