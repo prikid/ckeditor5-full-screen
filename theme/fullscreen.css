@@ -38,7 +38,7 @@
 }
 
 .ck-editor.ck-plugin-full-screen .ck-sticky-panel__placeholder {
-	display: none !important;
+	height: auto !important;
 }
 
 .ck-editor.ck-plugin-full-screen .ck-sticky-panel__content {
