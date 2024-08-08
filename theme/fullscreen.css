@@ -1,6 +1,7 @@
 .ck-editor.ck-plugin-full-screen {
   position: fixed;
   top: 3rem;
+  padding-top: 1.3rem;
   left: 0;
   z-index: 100;
   width: 100%;
